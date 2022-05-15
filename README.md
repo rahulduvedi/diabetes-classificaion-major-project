@@ -1,1 +1,1 @@
-# diabetes-classificaion-major-project
+# Diabetes-classification
