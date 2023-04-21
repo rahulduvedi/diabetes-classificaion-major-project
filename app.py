@@ -12,7 +12,7 @@ def home():
     return render_template("home.html", title="home page")
 
 
-@app.route("/diabete/predict", methods=["POST", "GET"])
+@app.route("/predict", methods=["POST", "GET"])
 def predict():
     input_features = [float(x) for x in request.form.values()]
     final_input = [np.array(input_features)]
